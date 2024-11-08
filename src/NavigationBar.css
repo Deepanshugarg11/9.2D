@@ -1,0 +1,61 @@
+/* Container for the whole layout */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #f4f4f4;
+  
+}
+
+/* Navigation bar styling */
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #B39CD0; /* Matches the purple-like color */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Links inside the navigation bar */
+.link {
+  color: #B39CD0; /* Matches the purple-like color */
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500; /* Adds a bit of thickness */
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Search bar styling */
+.search-bar {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px; /* Adjust the width if needed */
+}
+
+/* Ensures that the content is pushed below the fixed navigation bar */
+.content {
+  padding-top: 60px; /* Adjusted padding to match the height of the navigation bar */
+  flex: 1;
+}
+
+/* Style for welcome text */
+.welcome-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}

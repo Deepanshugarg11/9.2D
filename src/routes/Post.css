@@ -1,0 +1,179 @@
+/* Container */
+.post-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Post Form */
+.post-form {
+  width: 100%;
+}
+
+/* Card */
+.post-card {
+  background-color: #8d99ae;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.post-card h2 {
+  margin: 0 0 30px;
+  color: #2b2d42;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #edf2f4;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #edf2f4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Input Fields */
+.title-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #2b2d42;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #2b2d42;
+}
+
+/* Code Editor Header */
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.language-select {
+  padding: 10px;
+  border: 1px solid #2b2d42;
+  border-radius: 5px;
+  background-color: #edf2f4;
+  color: #2b2d42;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Code Editor */
+.code-editor {
+  border: 1px solid #2b2d42;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #edf2f4;
+}
+
+.code-editor .CodeMirror {
+  height: 350px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Markdown Container */
+.markdown-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.markdown-editor textarea {
+  width: 100%;
+  height: 350px;
+  padding: 15px;
+  border: 1px solid #2b2d42;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  color: #2b2d42;
+  resize: none;
+}
+
+/* Markdown Preview */
+.markdown-preview {
+  border: 1px solid #2b2d42;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #edf2f4;
+  color: #2b2d42;
+}
+
+.markdown-preview h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2b2d42;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+/* Preview Content */
+.preview-content {
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ef233c;
+  color: #edf2f4;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #d90429;
+}
+
+/* Error Message Styling */
+.error-message {
+  background-color: #ff4d4d;
+  border: 1px solid #ff1a1a;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Disabled Submit Button */
+.submit-button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}
+
+/* CodeMirror Customization */
+.CodeMirror {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  background-color: #edf2f4;
+  color: #2b2d42;
+}
+
+.CodeMirror-gutters {
+  border-right: 1px solid #2b2d42;
+}

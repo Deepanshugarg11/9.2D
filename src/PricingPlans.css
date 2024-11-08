@@ -1,0 +1,77 @@
+/* PricingPlans.css */
+
+.pricing-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.plans-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.plan-card h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.plan-card .price {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.plan-card ul li {
+  font-size: 1em;
+  color: #666;
+  padding: 5px 0;
+}
+
+.plan-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.plan-button:hover {
+  background-color: #ddd;
+}
+
+.premium-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.premium-button:hover {
+  background-color: #0056b3;
+}
+
+.premium {
+  border: 2px solid #007bff;
+}

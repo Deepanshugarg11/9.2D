@@ -1,0 +1,10 @@
+/* Header text styling */
+.header-div {
+    color: #333;
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+  }
+  
